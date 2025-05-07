@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flash History Quiz"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="395dp"
+        android:layout_height="107dp"
+        android:text="Welcome! Five flashacrd-style questions will test your knowledge of history. Choose &quot;True&quot; or &quot;False&quot; to receive immediate feedback."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="143dp"
+        android:layout_height="68dp"
+        android:text="Start Quiz"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <ImageButton
+        android:id="@+id/imgWelcome"
+        android:layout_width="351dp"
+        android:layout_height="357dp"
+        app:srcCompat="@drawable/welcome_image"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
